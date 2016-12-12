@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>selfmaking&#39;s Den</title>
+  <subtitle>Stay hungry, stay foolish.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://selfmaking.github.io/"/>
+  <updated>2016-12-09T08:17:24.000Z</updated>
+  <id>http://selfmaking.github.io/</id>
+  
+  <author>
+    <name>selfmaking</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://selfmaking.github.io/2016/11/30/hello-world/"/>
+    <id>http://selfmaking.github.io/2016/11/30/hello-world/</id>
+    <published>2016-11-30T09:29:13.000Z</published>
+    <updated>2016-12-09T08:17:24.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hello" scheme="http://selfmaking.github.io/tags/hello/"/>
+    
+  </entry>
+  
+</feed>
