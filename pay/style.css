@@ -1,11 +1,11 @@
-html, html&gt;body {
+html, html>body {
 	margin: 0px !important;
 	padding: 0px !important;
 	height: 100%;
 	width: 100%;
 }
 body {
-	font-family: &quot;Helvetica Neue&quot;, Ubuntu, &quot;WenQuanYi Micro Hei&quot;, Helvetica, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Micro Hei Mono&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;Apple LiGothic Medium&quot;, &quot;SimHei&quot;, &quot;ST Heiti&quot;, &quot;WenQuanYi Zen Hei Sharp&quot;, Arial, sans-serif;
+	font-family: "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", "WenQuanYi Zen Hei Sharp", Arial, sans-serif;
 	-webkit-font-smoothing:antialiased;
 	line-height: 1.8em;
 	text-shadow: 0 0 1px rgba(255,255,255,0.1);
@@ -88,7 +88,7 @@ a{
 	filter: grayscale(0);
 	opacity: 1;
 }
-#donateBox&gt;li:first-child {
+#donateBox>li:first-child {
 	border-width: 0;
 }
 #donateBox a {
@@ -97,14 +97,14 @@ a{
 #donateBox #PayPal {
 	background-image: url(images/paypal.svg);
 }
-#donateBox&gt;#BTC {
+#donateBox>#BTC {
 	background-image: url(images/bitcoin.svg);
 	line-height: 28px;
 }
-#donateBox&gt;#BTC:hover {
+#donateBox>#BTC:hover {
 	overflow: visible;
 }
-#BTC&gt;button {
+#BTC>button {
 	opacity: 0;
 	cursor: pointer;
 }
@@ -187,7 +187,7 @@ a{
 	left: 37px;
 }
 [data-footnote]::after {
-	content: &apos;&apos;;
+	content: '';
 	border: 5px solid #333;
 	border-color: rgba(100,100,100,0.8) transparent transparent transparent;
 	top: 0;

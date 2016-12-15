@@ -1,41 +1,41 @@
 jQuery(document).ready(function() {
-	var QRBox	=	$(&apos;#QRBox&apos;);
-	var MainBox	=	$(&apos;#MainBox&apos;);
-	var BTCQR	=	&apos;images/BTCQR.png&apos;;	// &#x4E8C;&#x7EF4;&#x7801;&#x8DEF;&#x5F84;
-	var AliPayQR	=	&apos;images/AliPayQR.png&apos;;
-	var WeChanQR	=	&apos;images/WeChanQR.png&apos;;
+	var QRBox	=	$('#QRBox');
+	var MainBox	=	$('#MainBox');
+	var BTCQR	=	'images/BTCQR.png';	// 二维码路径
+	var AliPayQR	=	'images/AliPayQR.png';
+	var WeChanQR	=	'images/WeChanQR.png';
 
 	
 
 	function showQR(QR) {
 		if (QR) {
-			MainBox.css(&apos;background-image&apos;,&apos;url(&apos;+QR+&apos;)&apos;);
+			MainBox.css('background-image','url('+QR+')');
 		}
-		$(&apos;#DonateText,#donateBox,#github&apos;).addClass(&apos;blur&apos;);
+		$('#DonateText,#donateBox,#github').addClass('blur');
 		QRBox.fadeIn(300,function(argument) {
-			MainBox.addClass(&apos;showQR&apos;);
+			MainBox.addClass('showQR');
 		});
 	}
 
-	$(&apos;#donateBox&gt;li&apos;).click(function(event) {
-		var thisID	=	$(this).attr(&apos;id&apos;);
-		if (thisID === &apos;BTC&apos;) {
+	$('#donateBox>li').click(function(event) {
+		var thisID	=	$(this).attr('id');
+		if (thisID === 'BTC') {
 			showQR(BTCQR);
-			new Clipboard(&apos;#BTCBn&apos;);
-		} else if (thisID === &apos;AliPay&apos;) {
+			new Clipboard('#BTCBn');
+		} else if (thisID === 'AliPay') {
 			showQR(AliPayQR);
-		} else if (thisID === &apos;WeChat&apos;) {
+		} else if (thisID === 'WeChat') {
 			showQR(WeChanQR);
 		}
 	});
 
 	MainBox.click(function(event) {
-		MainBox.removeClass(&apos;showQR&apos;).addClass(&apos;hideQR&apos;);
+		MainBox.removeClass('showQR').addClass('hideQR');
 		setTimeout (function(a) {
 			QRBox.fadeOut(300,function(argument) {
-				MainBox.removeClass(&apos;hideQR&apos;);
+				MainBox.removeClass('hideQR');
 			});
-			$(&apos;#DonateText,#donateBox,#github&apos;).removeClass(&apos;blur&apos;);
+			$('#DonateText,#donateBox,#github').removeClass('blur');
 		},600);
 
 	});
