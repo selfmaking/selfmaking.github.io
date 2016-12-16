@@ -2,7 +2,7 @@ html, html>body {
 	margin: 0px !important;
 	padding: 0px !important;
 	height: 100%;
-	width: 50%;
+	width: 100%;
 }
 body {
 	font-family: "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", "WenQuanYi Zen Hei Sharp", Arial, sans-serif;
@@ -60,7 +60,6 @@ a{
 	background-color: #fff;
 	border: 1px solid #ddd;
 	border-radius: 6px;
-	width: 299px;
 	height: 28px;
 	float: left;
 	z-index: 1;
@@ -151,7 +150,7 @@ a{
 #github {
 	width: 24px;
 	height: 24px;
-	left: calc(50% + 135px);
+	left: calc(49%);
 	top: calc(50% - 30px);
 	background: no-repeat center center url(images/github.svg);
 	background-size: contain;
