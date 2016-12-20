@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://selfmaking.github.io/2017/01/01/hello-world/</loc>
+    
+    <lastmod>2016-12-20T08:44:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://selfmaking.github.io/all-archives/index.html</loc>
     
     <lastmod>2016-12-19T06:36:38.000Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://selfmaking.github.io/all-categories/index.html</loc>
     
     <lastmod>2016-12-19T06:34:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://selfmaking.github.io/2017/01/01/hello-world/</loc>
-    
-    <lastmod>2016-12-16T06:34:31.000Z</lastmod>
     
   </url>
   
